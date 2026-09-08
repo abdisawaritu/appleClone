@@ -1,0 +1,85 @@
+/* =========================================
+   iPhone 11 Pro Hero Section
+   ========================================= */
+
+.hero-banner {
+  /* iPhone 11 Pro background image */
+  background-image: url("../images/home/iphone11-pro-bg.jpg");
+
+  /* Make the image cover the entire section */
+  background-size: cover;
+
+  /* Keep the image centered */
+  background-position: center top;
+
+  /* Prevent the image from repeating */
+  background-repeat: no-repeat;
+
+  /* Minimum height of the section */
+  min-height: 480px;
+
+  /* Add space at the top */
+  padding-top: 50px;
+}
+
+/* =========================================
+   iPhone 11 Pro Title
+   ========================================= */
+
+.hero-banner h1 {
+  /* Make the title slightly larger */
+  font-weight: 600;
+}
+
+/* =========================================
+   iPhone 11 Pro Subtitle
+   ========================================= */
+
+.hero-banner p {
+  /* Control the spacing around text */
+  margin-bottom: 8px;
+}
+
+/* =========================================
+   iPhone 11 Pro Links
+   ========================================= */
+
+.hero-banner a {
+  /* Apple-style blue links */
+  color: #2997ff;
+
+  /* Remove default underline */
+  text-decoration: none;
+}
+
+/* Underline links when the mouse is over them */
+.hero-banner a:hover {
+  text-decoration: underline;
+}
+
+/* =========================================
+   Responsive Design
+   ========================================= */
+
+@media (max-width: 768px) {
+  .hero-banner {
+    /* Smaller section on mobile */
+    min-height: 420px;
+
+    /* Reduce top spacing */
+    padding-top: 35px;
+
+    /* Adjust background for mobile */
+    background-position: center top;
+  }
+
+  .hero-banner h1 {
+    /* Smaller title on mobile */
+    font-size: 36px;
+  }
+
+  .hero-banner p {
+    /* Smaller text on mobile */
+    font-size: 16px;
+  }
+}
