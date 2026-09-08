@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background: #fff;
+  color: #1d1d1f;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  color: #06c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.model {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #1d1d1f;
+}
+
+.product-title-small {
+  font-weight: 700;
+  font-size: clamp(2rem, 3vw, 3rem);
+  line-height: 1.1;
+  margin-top: 4px;
+}
+
+.description-wraper {
+  font-size: 1.05rem;
+  color: #1d1d1f;
+  margin-top: 8px;
+}
+
+.links-wrapper {
+  margin-top: 16px;
+}
+
+.links-wrapper ul {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+}
+
+.links-wrapper a {
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+.links-wrapper a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 8px;
+}
+
+/* Sixth Highlight Section */
+.sixth-heghlight-wrapper {
+  background: #fff;
+  width: 100%;
+}
+
+.sixth-heghlight-wrapper .row {
+  margin: 0;
+}
+
+.sixth-heghlight-wrapper .left-side-inner-wrapper,
+.sixth-heghlight-wrapper .right-side-inner-wrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 54px;
+  background-size: initial;
+  background-position: bottom;
+}
+
+.sixth-heghlight-wrapper .left-side-inner-wrapper {
+  background-image: url("../images/home/macbook-pro.jpg");
+  background-color: #fafafa;
+}
+
+.sixth-heghlight-wrapper .right-side-inner-wrapper {
+  background-image: url("../images/home/new-ipad.jpg");
+  background-color: #000;
+  color: #fff;
+}
+
+.sixth-heghlight-wrapper .right-side-inner-wrapper .description-wraper,
+.sixth-heghlight-wrapper .right-side-inner-wrapper .model,
+.sixth-heghlight-wrapper .right-side-inner-wrapper .product-title-small {
+  color: #fff;
+}
+
+.sixth-heghlight-wrapper .right-side-inner-wrapper .links-wrapper a {
+  color: #06c;
+}
+
+.sixth-heghlight-wrapper .left-side-wrapper,
+.sixth-heghlight-wrapper .right-side-wrapper {
+  padding: 0;
+}
+
+.sixth-heghlight-wrapper .right-side-wrapper {
+  margin-left: auto;
+}
+
+.top-logo-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-wrapper img {
+  max-width: 220px;
+  height: auto;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .sixth-heghlight-wrapper .left-side-inner-wrapper,
+  .sixth-heghlight-wrapper .right-side-inner-wrapper {
+    height: 500px;
+    background-size: cover;
+    padding-top: 32px;
+  }
+
+  .links-wrapper ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+}
