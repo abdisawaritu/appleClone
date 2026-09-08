@@ -1,0 +1,24 @@
+.third-highlight-wrapper {
+    background-image: url("../images/home/iphone11-bg.jpg");
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 65px 20px;
+}
+
+.title-wraper {
+    font-weight: 600;
+    font-size: 56px;
+}
+
+.description-wrapper {
+    font-size: 26px;
+    padding: 10px 0;
+}
+
+.price-wrapper {
+    color: #86868b;
+    font-size: 0.85em;
+}
