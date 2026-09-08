@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+body {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  color: #000;
+}
+
+
+
+/*Fourth Highlight Section */
+.fourth-heghlight-wrapper {
+  background: #fff;
+}
+.col-lg-6.left-side-wrapper {
+  padding-left: 0;
+  padding-right: 0;
+}
+.left-side-inner-wrapper {
+  margin: 1% 0.5% 0% 1%;
+}
+.fourth-heghlight-wrapper .left-side-inner-wrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-image: url("../images/home/watch-series-5.jpg");
+  padding-top: 54px;
+}
+.right-side-inner-wrapper {
+  margin: 1% 1% 0% 0.5%;
+}
+.col-lg-6.right-side-wrapper {
+  padding-left: 0;
+  padding-right: 0;
+}
+.fourth-heghlight-wrapper .right-side-inner-wrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 54px;
+  background-image: url("../images/home/apple-card.jpg");
+}
+.description-wraper {
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 10px;
+}
