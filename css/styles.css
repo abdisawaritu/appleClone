@@ -35,3 +35,42 @@ body {
 .links-wrapper ul {
   list-style: none;
 }
+
+/* Sixth Highlight Section - Right Side Wrapper */
+.col-lg-6.right-side-wrapper {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+}
+
+.right-side-inner-wrapper {
+  margin: 1% 1% 0% 0.5%;
+}
+
+.description-wraper {
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.logo-wrapper {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.sixth-heghlight-wrapper {
+  background: #fff;
+}
+
+.sixth-heghlight-wrapper .right-side-inner-wrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 54px;
+  background-image: url("../images/home/new-ipad.jpg");
+  background-size: initial;
+  background-color: #000;
+  background-position: bottom;
+}
