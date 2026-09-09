@@ -43,35 +43,42 @@
     content: "\f144";
     padding-left: 15px;
 }
-/* Footer responsive */
-@media (max-width: 768px) {
-  .footer-links-wrapper ul {
-    display: none;
-  }
-  .footer-links-wrapper h3 {
-    padding: 10px 0;
-    border-bottom: 1px solid #ccc;
-  }
-  .footer-links-wrapper h3:after {
-    font-family: "FontAwesome";
-    content: "\f067";     
-    padding-left: 10px;
-    position: absolute;
-    right: 25px;
 
-    /* transform: rotate(0deg);
-			transition: .3s;   */
-  }
+/* Sixth Highlight Section - Right Side Wrapper */
+.col-lg-6.right-side-wrapper {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+}
 
-  .footer-links-wrapper h3.expanded:after {
-    font-family: "FontAwesome";
-    content: "\0058";
-    padding-left: 10px;
-    position: absolute;
-    right: 25px;
+.right-side-inner-wrapper {
+  margin: 1% 1% 0% 0.5%;
+}
 
-    /* transform: rotate(-180deg);
-    /*transform: rotate(180deg);*/
-    /* transition: .3s; */
-  }
+.description-wraper {
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.logo-wrapper {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.sixth-heghlight-wrapper {
+  background: #fff;
+}
+
+.sixth-heghlight-wrapper .right-side-inner-wrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 54px;
+  background-image: url("../images/home/new-ipad.jpg");
+  background-size: initial;
+  background-color: #000;
+  background-position: bottom;
 }
