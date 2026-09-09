@@ -1,39 +1,86 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-img {
-  max-width: 100%;
-}
-body {
-  font-size: 20px;
-  font-family: "Montserrat", sans-serif;
-  line-height: 1.5;
-  color: #000;
+/*Fivth Highlight Section */
+.fifth-heghlight-wrapper {
+    background: #fff;
 }
 
-.links-wrapper {
-  padding: 15px 0;
+.fifth-heghlight-wrapper .left-side-inner-wrapper {
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-image: url("../images/home/apple-tv-background.jpg");
+    padding-top: 54px;
 }
-.links-wrapper ul li {
-  display: inline-block;
-  padding-right: 20px;
+.fifth-heghlight-wrapper .right-side-inner-wrapper {
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 54px;
+    background-image: url("../images/home/air-pods.jpg");
+    color: #fff;
+    background-size: initial;
+    background-color: #000;
+    background-position: bottom;
 }
-.links-wrapper ul li a {
-  color: #06c;
-  text-decoration: none;
+.logo-wrapper {
+    font-size: 40px;
+    font-weight: bold;
 }
-.links-wrapper ul li a:hover {
-  color: #000;
+.tvshow-logo-wraper {
+    padding: 180px 0 150px;
 }
-.links-wrapper ul li a:after {
-  font-family: "FontAwesome";
-  font-weight: 900;
-  content: "\f105";
-  padding-left: 10px;
+
+.watch-more-wrapper a {
+    text-decoration: none;
+    font-size: 0.85em;
 }
-.links-wrapper ul {
-  list-style: none;
+.watch-more-wrapper a:after {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f144";
+    padding-left: 15px;
+}
+
+/* Sixth Highlight Section - Right Side Wrapper */
+.col-lg-6.right-side-wrapper {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+}
+
+.right-side-inner-wrapper {
+  margin: 1% 1% 0% 0.5%;
+}
+
+.description-wraper {
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.logo-wrapper {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.sixth-heghlight-wrapper {
+  background: #fff;
+}
+
+.sixth-heghlight-wrapper .right-side-inner-wrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 54px;
+  background-image: url("../images/home/new-ipad.jpg");
+  background-size: initial;
+  background-color: #000;
+  background-position: bottom;
 }
 .sixth-heghlight-wrapper .left-side-inner-wrapper {
   height: 580px;
