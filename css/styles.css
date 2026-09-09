@@ -1,39 +1,56 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-img {
-  max-width: 100%;
-}
-body {
-  font-size: 20px;
-  font-family: "Montserrat", sans-serif;
-  line-height: 1.5;
-  color: #000;
+/* Header Style */
+.header-wrapper {
+  background: rgba(0, 0, 0, 0.8);
+  font-weight: 200;
+  font-size: 0.75em;
 }
 
-.links-wrapper {
-  padding: 15px 0;
+.logo-link {
+  width: 18px;
+  display: block;
 }
-.links-wrapper ul li {
-  display: inline-block;
-  padding-right: 20px;
+
+.search-link,
+.cart-link {
+  width: 55px;
+  display: block;
+  padding: 0 20px !important;
 }
-.links-wrapper ul li a {
-  color: #06c;
-  text-decoration: none;
+
+.navbar {
+  padding: 0;
 }
-.links-wrapper ul li a:hover {
-  color: #000;
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
 }
-.links-wrapper ul li a:after {
-  font-family: "FontAwesome";
-  font-weight: 900;
-  content: "\f105";
-  padding-left: 10px;
+
+.navbar-brand {
+  padding: 0;
 }
-.links-wrapper ul {
-  list-style: none;
+
+.navbar-nav .nav-link {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 44px;
+  line-height: 44px;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../images/icons/humberger.png");
+}
+
+/* Search Box */
+.searchbox {
+  z-index: 100;
+  background: #000;
+  padding: 100px;
+  text-align: center;
+  display: none;
+}
+
+.searchbox ul {
+  background: #fff;
 }
 
 /* feature airpod pro */
