@@ -1,71 +1,47 @@
-.third-highlight-wrapper {
-    background-image: url("../images/home/iphone11-bg.jpg");
+/*Fivth Highlight Section */
+.fifth-heghlight-wrapper {
+    background: #fff;
+}
+
+.fifth-heghlight-wrapper .left-side-inner-wrapper {
     height: 580px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    padding: 65px 20px;
+    background-image: url("../images/home/apple-tv-background.jpg");
+    padding-top: 54px;
+}
+.fifth-heghlight-wrapper .right-side-inner-wrapper {
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 54px;
+    background-image: url("../images/home/air-pods.jpg");
+    color: #fff;
+    background-size: initial;
+    background-color: #000;
+    background-position: bottom;
+}
+.logo-wrapper {
+    font-size: 40px;
+    font-weight: bold;
+}
+.tvshow-logo-wraper {
+    padding: 180px 0 150px;
 }
 
-.title-wraper {
-    font-weight: 600;
-    font-size: 56px;
-}
-
-.description-wrapper {
-    font-size: 26px;
-    padding: 10px 0;
-}
-
-.price-wrapper {
-    color: #86868b;
+.watch-more-wrapper a {
+    text-decoration: none;
     font-size: 0.85em;
 }
-
-
-/* Footer Styling */
-.footer-wrapper {
-  background-color: #f5f5f7;
-  color: #1d1d1f;
-  font-size: 0.65em;
-}
-.footer-wrapper ul {
-  list-style: none;
-  padding-bottom: 20px;
-}
-.footer-wrapper ul li {
-  padding: 5px 0;
-  font-size: 0.9em;
-}
-.upper-text-container {
-  border-bottom: 1px solid #d2d2d7;
-  color: #86868b;
-  padding: 17px 0 20px;
-}
-.upper-text-container a {
-  text-decoration: none;
-  color: #515154;
-}
-.upper-text-container a:hover {
-  text-decoration: underline;
-}
-.footer-links-wrapper {
-  display: flex;
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-  padding-top: 20px;
-}
-.footer-links-wrapper a {
-  color: #515154;
-  text-decoration: none;
-}
-.footer-links-wrapper a:hover {
-  text-decoration: underline;
-}
-.footer-links-wrapper h3 {
-  font-size: 12px;
-  font-weight: 600;
+.watch-more-wrapper a:after {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f144";
+    padding-left: 15px;
 }
 /* Footer responsive */
 @media (max-width: 768px) {
