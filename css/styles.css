@@ -1,1 +1,54 @@
+/* Header Style */
+.header-wrapper {
+  background: rgba(0, 0, 0, 0.8);
+  font-weight: 200;
+  font-size: 0.75em;
+}
 
+.logo-link {
+  width: 18px;
+  display: block;
+}
+
+.search-link,
+.cart-link {
+  width: 55px;
+  display: block;
+  padding: 0 20px !important;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar-nav .nav-link {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 44px;
+  line-height: 44px;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../images/icons/humberger.png");
+}
+
+/* Search Box */
+.searchbox {
+  z-index: 100;
+  background: #000;
+  padding: 100px;
+  text-align: center;
+  display: none;
+}
+
+.searchbox ul {
+  background: #fff;
+}
