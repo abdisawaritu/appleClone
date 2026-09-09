@@ -30,27 +30,73 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
   </head>
   <body>
-    <!-- Sixth highlight section -->
-    <section class="sixth-heghlight-wrapper">
-      <div class="row">
-        <div class="col-sm-12 col-m-6 col-lg-6 left-side-wrapper">
-          <div class="left-side-inner-wrapper">
-            <div class="model">16-inch model</div>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top header-wrapper">
+      <div class="container">
+        <a class="logo-link navbar-brand js-scroll-trigger" href="#">
+          <img src="images/icons/logo.png" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="product-title-small">MacBook Pro</div>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav nav-fill w-100">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="/mac/">Mac</a>
+            </li>
 
-            <div class="description-wraper">The best for the brightest.</div>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#">iphone</a>
+            </li>
 
-            <div class="links-wrapper">
-              <ul>
-                <li><a href="">Learn more</a></li>
-                <li><a href="">Buy</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#">ipad</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#">watch</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#">tv</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#">Music</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#">Support</a>
+            </li>
+            <li>
+              <a class="search-link nav-link js-scroll-trigger" href="#">
+                <img src="images/icons/search-icon.png" />
+              </a>
+            </li>
+            <li>
+              <a class="cart-link nav-link js-scroll-trigger" href="/cart/">
+                <img src="images/icons/cart.png" />
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
+    </nav>
+    <section class="searchbox">
+      <form>
+        <input type="text" name="searchbox" />
+        <button id="submitButton" class="btn btn-primary" type="cdsubmit">
+          Search
+        </button>
+      </form>
     </section>
   </body>
 </html>
